@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "88feca23eaa46b8f844d33de55d975d6"
+build_time: [548977068, 390499000]
+inputs:
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/ViewController.swift": [548977064, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/AppDelegate.swift": [548977064, 0]
