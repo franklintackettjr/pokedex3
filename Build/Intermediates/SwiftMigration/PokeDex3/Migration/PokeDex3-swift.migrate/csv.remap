@@ -1,0 +1,152 @@
+[
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 73,
+  "remove": 6,
+  "text": "open",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 96,
+  "remove": 6,
+  "text": "open",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 134,
+  "remove": 6,
+  "text": "open",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 189,
+  "remove": 6,
+  "text": "open",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 260,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 287,
+  "remove": 7,
+  "text": "n",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 350,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 499,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 522,
+  "remove": 14,
+  "text": "s",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 602,
+  "remove": 2,
+  "text": ".",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 606,
+  "remove": 8,
+  "text": "i",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 629,
+  "remove": 7,
+  "text": "(in: n",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 984,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1011,
+  "remove": 7,
+  "text": "n",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1135,
+  "remove": 7,
+  "text": "S",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1147,
+  "text": ".",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1155,
+  "text": ".utf8",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1283,
+  "remove": 7,
+  "text": "S",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1295,
+  "text": ".",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1303,
+  "text": ".utf8.rawValue",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1418,
+  "remove": 1,
+  "text": "(s",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1429,
+  "remove": 18,
+  "text": ": se",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1662,
+  "text": "d",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1843,
+  "remove": 1,
+  "text": "(s",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1854,
+  "remove": 18,
+  "text": ": se",
+ },
+ {
+  "file": "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/PokeDex3/csv.swift",
+  "offset": 1943,
+  "text": "d",
+ }
+]

@@ -133,6 +133,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -152,13 +154,69 @@ SWIFT_CLASS("_TtC8PokeDex311AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+@class UIImageView;
+@class UILabel;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC8PokeDex314ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC8PokeDex38PokeCell")
+@interface PokeCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified thumbImg;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLbl;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@class UIButton;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC8PokeDex315PokemonDetailVC")
+@interface PokemonDetailVC : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLbl;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified mainImg;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descriptionLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified typeLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified defenseLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified heightLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified pokedexLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified weightLbl;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified attackLbl;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified currentEvoImg;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified nextEvoImg;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified evoLbl;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (void)updateUI;
+- (IBAction)backBtnPressed:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class UISlider;
+@class UISearchBar;
+@class AVAudioPlayer;
+@class UICollectionViewLayout;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC8PokeDex314ViewController")
+@interface ViewController : UIViewController <UIBarPositioningDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UIScrollViewDelegate, UISearchBarDelegate>
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collection;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified sliderBar;
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+@property (nonatomic, strong) AVAudioPlayer * _Null_unspecified musicPlayer;
+@property (nonatomic) BOOL inSearchMode;
+- (void)viewDidLoad;
+- (void)initAudio SWIFT_METHOD_FAMILY(none);
+- (void)parsePokemonCSV;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (IBAction)musicBtnPressed:(UIButton * _Nonnull)sender;
+- (IBAction)sliderMoved:(UISlider * _Nonnull)sender;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

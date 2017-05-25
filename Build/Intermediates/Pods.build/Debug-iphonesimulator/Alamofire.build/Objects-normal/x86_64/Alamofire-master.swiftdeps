@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5267e25d434f50b2099fa90917d3e464"
+build_time: [549032831, 333428000]
+inputs:
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/AFError.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Alamofire.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/MultipartFormData.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Notifications.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/ParameterEncoding.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Request.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Response.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/ResponseSerialization.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Result.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/ServerTrustPolicy.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/SessionDelegate.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/SessionManager.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/TaskDelegate.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Timeline.swift": [549027186, 0]
+  "/Users/franklin/Desktop/Playground/AppDev/PokeDex3/Pods/Alamofire/Source/Validation.swift": [549027186, 0]
